@@ -15,7 +15,7 @@ if [ -x "$(which apt 2>/dev/null)" ]
     then
         apt update && apt install -y \
             build-essential clang pkg-config git autoconf libtool \
-            gettext autopoint po4a upx
+            gettext autopoint po4a
 fi
 
 [ "$tar_version" == "latest" ] && \
